@@ -101,3 +101,31 @@ html,body{
     border-radius: 50%;
     background-color: #888;
 }
+
+#second{
+    color: white;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 0;
+    padding: 3.5vw 3vw;
+    border-top: 1px solid white;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7.5vw;
+    opacity: 0.6;
+}
+.elemlast{
+    border-bottom:1px solid #888
+}
