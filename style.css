@@ -11,6 +11,16 @@ html,body{
     height: 100%;
 }
 
+#minicircle{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    z-index: 9999;
+    border-radius: 50%;
+}
+
 #main{
     width:100%
 }
