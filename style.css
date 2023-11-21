@@ -112,6 +112,7 @@ html,body{
 }
 
 .elem{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,4 +129,11 @@ html,body{
 }
 .elemlast{
     border-bottom:1px solid #888
+}
+
+.elem img{display: none;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    /* opacity: 0; */
 }
